@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.java.VentanaPrincipalController">
+    <children>
+        <Button layoutX="210.0" layoutY="112.0" onAction="#onAgregarCliente" prefHeight="40.0" prefWidth="179.0" text="Agregar Cliente" />
+        <Button layoutX="210.0" layoutY="162.0" onAction="#onEditarCliente" prefHeight="40.0" prefWidth="179.0" text="Editar Cliente" />
+        <Button layoutX="210.0" layoutY="212.0" onAction="#onBuscarCliente" prefHeight="40.0" prefWidth="179.0" text="Buscar Cliente" />
+        <Button layoutX="210.0" layoutY="262.0" onAction="#onEliminarCliente" prefHeight="40.0" prefWidth="179.0" text="Eliminar Cliente" />
+      <Label layoutX="42.0" layoutY="35.0" text="Clientes">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
